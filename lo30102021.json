@@ -1,0 +1,152 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "league": "61",
+    "season": "2021",
+    "date": "2021-10-30"
+  },
+  "errors": [],
+  "results": 2,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 718465,
+        "referee": "M. Lesage",
+        "timezone": "UTC",
+        "date": "2021-10-30T19:00:00+00:00",
+        "timestamp": 1635620400,
+        "periods": {
+          "first": 1635620400,
+          "second": 1635624000
+        },
+        "venue": {
+          "id": 666,
+          "name": "Groupama Stadium",
+          "city": "Décines-Charpieu"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2021,
+        "round": "Regular Season - 12"
+      },
+      "teams": {
+        "home": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media.api-sports.io/football/teams/80.png",
+          "winner": true
+        },
+        "away": {
+          "id": 116,
+          "name": "Lens",
+          "logo": "https://media.api-sports.io/football/teams/116.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 718466,
+        "referee": "S. Frappart",
+        "timezone": "UTC",
+        "date": "2021-10-30T15:00:00+00:00",
+        "timestamp": 1635606000,
+        "periods": {
+          "first": 1635606000,
+          "second": 1635609600
+        },
+        "venue": {
+          "id": 658,
+          "name": "Stade Saint-Symphorien",
+          "city": "Longeville-lès-Metz"
+        },
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2021,
+        "round": "Regular Season - 12"
+      },
+      "teams": {
+        "home": {
+          "id": 112,
+          "name": "Metz",
+          "logo": "https://media.api-sports.io/football/teams/112.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1063,
+          "name": "Saint Etienne",
+          "logo": "https://media.api-sports.io/football/teams/1063.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    }
+  ]
+}
